@@ -1,0 +1,25 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+
+# huggingface
+datasets
+huggingface_hub
+safetensors
+
+# tokenization
+sentencepiece
+tiktoken
+blobfile>=2
+
+# miscellaneous
+numpy<=1.26.4
+tqdm
+omegaconf
+
+# logging
+wandb
+tensorboard
+
+# mpirun
+mpi4py
